@@ -18,8 +18,10 @@ public class StrOOM {
         List<String> strList = new ArrayList<String>();
 
         for (int i = 0; i < Integer.MAX_VALUE; i++) {
-            baseStr+=baseStr;
-            strList.add(baseStr);
+           String str = baseStr+baseStr;
+           baseStr =str;
+           //注意下这个intern 方法
+           strList.add(str.intern());
         }
         
 
