@@ -15,7 +15,7 @@ StrOOM 添加了字符串 方法区溢出
 1.8 Java heap space (堆空间) + 告诉你两个失效
 
 
-StackDymic 查看栈的调用 先javac StackDymic 
+#StackDymic 查看栈的调用 先javac StackDymic 
                         javap -StackDymic.class
                         
 结果: public class self.alan.stack.StackDymic
@@ -74,4 +74,7 @@ StackDymic 查看栈的调用 先javac StackDymic
 
 
 0 ,1,2 ,3 ... 是PC计数器记住的值
+
+
+#EdenCollection 添加了查看堆内存的GC方式 
                       
