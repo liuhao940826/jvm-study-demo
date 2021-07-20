@@ -76,5 +76,6 @@ StrOOM 添加了字符串 方法区溢出
 0 ,1,2 ,3 ... 是PC计数器记住的值
 
 
-#EdenCollection 添加了查看堆内存的GC方式 
+#EdenCollectionClient 添加了查看堆内存的client 模式GC方式 
+#EdenCollectionServer 添加了server 模式的回收
                       
