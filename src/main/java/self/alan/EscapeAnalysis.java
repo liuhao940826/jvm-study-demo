@@ -1,7 +1,7 @@
 package self.alan;
 
 /**
- * @Classname EscapeAnalysis
+ * @Classname EscapeAnalysis 逃逸分析
  * @Description TODO
  * @Date 2021/7/13 下午3:05
  * @Created by liuhao
